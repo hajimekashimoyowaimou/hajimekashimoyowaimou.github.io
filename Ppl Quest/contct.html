@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Library Theory/Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #ffff; 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffffff; 
+            color: #fff; 
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #f5f2ea; 
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #928e85; 
+            padding: 10px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #37474f;
+            color: #ffff; 
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="book.jpg" alt="Logo">
+            <h3 class="logo-text" style="color: #645452;">Theory Library</h3>
+          </div>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="book.html">Books</a>
+        <a href="contct.html">Contact</a>
+    </nav>
+
+    <section id="contact-form">
+        <h1 style="color: #928e85;">Contact Us</h1>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="book-title">Book Title:</label>
+            <input type="text" id="book-title" name="book_title" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit Request</button>
+        </form>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+body {
+  font-family: 'The Girl Next Door', cursive;
+    margin: 0;
+    padding: 0;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+  a {
+    font-family: 'The Girl Next Door', cursive;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+  }
+  
+  .logo-container img {
+    max-width: 70px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 27px; 
+    margin: 0;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+  h3 {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size:smaller;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+  h1 {
+    font-family: 'The Girl Next Door', cursive;
+    text-align: center;
+    font-size: larger;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap');
+
+  td {
+    font-family: 'The Girl Next Door', cursive;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap');
+
+  tr {
+    font-family: 'The Girl Next Door', cursive;
+  }
+
+  .table{
+    border-spacing: 4px;
+    width: 100%;
+  }
+
+  th {
+    background-color: #37474f;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #dddddd;
+  }
+
+  td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #dddddd;
+    empty-cells: fill; 
+  }
+
+  .table-konten{
+    background-color: #eceff1;
+  }
+
+  td>img{
+    width: 70px;
+  }
+
+  .table-konten:hover {
+    background-color: #928e85;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 1em;
+    border: 1px solid #928e85;
+    border-radius: 8px;
+}
+
+form {
+    display: grid;
+    gap: 1em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+label {
+    font-family: 'Slabo 27px', serif;
+    display: block;
+    font-weight:lighter;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.7em;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+
+button {
+  font-family: 'Slabo 27px', serif;
+    background-color: #675752;
+    color: #fff;
+    padding: 0.7em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #675752;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
